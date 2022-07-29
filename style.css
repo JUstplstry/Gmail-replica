@@ -1,0 +1,48 @@
+body{
+	/* background-image: linear-gradient(to right, rgb(106, 193, 214) , rgb(169, 114, 206)); */
+	background-color: rgba(255, 255, 255, 0.911);
+}
+
+#navBar{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+.tab_1{
+	font-family: Helvetica;
+   background-color: #6fe9b6;
+   color: rgb(41, 12, 53);
+   font-size: 32px;
+   padding: 5px;
+	margin: 30px;
+}
+
+.tab_1:hover{
+   background-color: gray;
+   opacity: 0.5;
+}
+
+#logo{
+	height: 40px;
+	margin-top:15px;
+}
+
+#logout{
+	height: 40px;
+	margin-top:15px;
+}
+
+#emails{
+	display: block;
+	margin-left: 97px;
+}
+.message{
+	margin:3px;
+}
+#search{
+	display: grid;
+	grid-auto-columns: auto;
+	
+}
